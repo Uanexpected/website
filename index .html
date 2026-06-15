@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Glow Collective — Makeup Studio &amp; Artists, Dehradun</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="frame-corner tl"></div>
+<div class="frame-corner tr"></div>
+<div class="frame-corner bl"></div>
+<div class="frame-corner br"></div>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="#home" class="logo">Glow Collective</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#album">Album</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="nav-cta-mobile">Book now</a>
+    </nav>
+    <a href="#contact" class="nav-cta">Book now</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-motif" aria-hidden="true">
+      <svg viewBox="0 0 600 600" class="motif-svg">
+        <circle cx="300" cy="300" r="280" fill="none" stroke="#caa14d" stroke-width="0.5" opacity="0.35"/>
+        <circle cx="300" cy="300" r="220" fill="none" stroke="#caa14d" stroke-width="0.5" opacity="0.25"/>
+        <g stroke="#caa14d" stroke-width="0.5" opacity="0.4" fill="none">
+          <path d="M300 20 L300 580"/>
+          <path d="M20 300 L580 300"/>
+        </g>
+      </svg>
+    </div>
+    <div class="hero-content">
+      <p class="eyebrow">Makeup studio &amp; artists · Dharampur, Dehradun</p>
+      <h1>Every face tells<br>a story. We make<br>it glow.</h1>
+      <p class="hero-sub">Full party-ready makeup &amp; styling for every celebration from festive get-togethers to milestone occasions. Skilled artists, premium branded products, looks built to last through the night and the camera.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Book an appointment</a>
+        <a href="#album" class="btn btn-ghost">View our work</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about">
+    <div class="section-head">
+      <p class="eyebrow">About us</p>
+      <h2>Crafted by hand,<br>finished with care</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>Glow Collective began with a simple belief that great makeup isn't about hiding a face, it's about revealing the best version of it. Based in Dharampur, Dehradun, our studio has grown into a trusted name for festive, celebratory, and everyday-glam looks across the city.</p>
+        <p>Every artist on our team trains continuously in modern techniques HD, airbrush, draping, and traditional finishes so your look feels right for the moment, whether that's a family function, a friend's celebration, or a night out. We work only with premium, branded, skin-friendly products, because what goes on your skin matters as much as how it looks on camera.</p>
+        <p>Our studio is built around one idea: you walk in as yourself, and walk out as the most confident version of yourself.</p>
+      </div>
+      <aside class="founder-card">
+        <div class="founder-avatar">
+          <img src="images/founder.jpg" alt="Diksha Kuniyal" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <span class="founder-initials">DK</span>
+        </div>
+        <h3>Diksha Kuniyal</h3>
+        <p class="founder-role">Founder &amp; CEO</p>
+        <p class="founder-quote">"Makeup should feel like a celebration of who you already are we just help it show."</p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- SERVICES STRIP -->
+  <section id="services" class="section services">
+    <div class="section-head">
+      <p class="eyebrow">What we do</p>
+      <h2>Party-ready looks,<br>tailored to you</h2>
+    </div>
+    <div class="services-grid">
+      <article class="service-card">
+        <span class="service-mark">HD &amp; airbrush</span>
+        <h3>Flawless, camera-ready finish</h3>
+        <p>Long-wear HD and airbrush makeup that holds up through hours of celebration and every photograph.</p>
+      </article>
+      <article class="service-card">
+        <span class="service-mark">Hair &amp; styling</span>
+        <h3>Hairstyling &amp; draping</h3>
+        <p>Updos, braids, and saree or outfit draping styled to complement your overall look.</p>
+      </article>
+      <article class="service-card">
+        <span class="service-mark">Family &amp; group</span>
+        <h3>Family glam packages</h3>
+        <p>Coordinated looks for groups and families heading to the same celebration same artists, same studio day.</p>
+      </article>
+      <article class="service-card">
+        <span class="service-mark">Consultation</span>
+        <h3>Styling consultations</h3>
+        <p>One-on-one chats to plan looks around your outfit, jewellery, and the occasion ahead of time.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ALBUM -->
+  <section id="album" class="section album">
+    <div class="section-head">
+      <p class="eyebrow">Album</p>
+      <h2>A glimpse of<br>our recent work</h2>
+    </div>
+    <div class="album-grid" id="albumGrid">
+      <button class="album-tile tall" data-index="0">
+        <img src="images/album-1.jpg" alt="Festive look" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <span class="album-fallback">Festive look</span>
+      </button>
+      <button class="album-tile" data-index="1">
+        <img src="images/album-2.png" alt="Soft glam" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <span class="album-fallback">Soft glam</span>
+      </button>
+      <button class="album-tile" data-index="2">
+        <img src="images/album-3.jpg" alt="Hairstyling" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <span class="album-fallback">Hairstyling</span>
+      </button>
+      <button class="album-tile wide" data-index="3">
+        <img src="images/album-4.jpg" alt="Family glam" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <span class="album-fallback">Family glam</span>
+      </button>
+      <button class="album-tile" data-index="4">
+        <img src="images/album-5.jpg" alt="Draping" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <span class="album-fallback">Draping</span>
+      </button>
+      <button class="album-tile tall" data-index="5">
+        <img src="images/album-6.png" alt="Evening look" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <span class="album-fallback">Evening look</span>
+      </button>
+    </div>
+    <p class="album-note">Add your photos to the <code>images</code> folder as album-1.jpg through album-6.jpg. Tap a photo to view it larger.</p>
+  </section>
+
+  <!-- BLOG -->
+  <section id="blog" class="section blog">
+    <div class="section-head">
+      <p class="eyebrow">Blog</p>
+      <h2>Notes from<br>the studio</h2>
+    </div>
+    <div class="blog-grid">
+      <article class="blog-card">
+        <p class="blog-tag">Skincare</p>
+        <h3>Prepping your skin before any big event</h3>
+        <p>A simple routine in the days before your appointment makes a real difference to how makeup sits and lasts — here's what we recommend.</p>
+        <span class="blog-read">Read more →</span>
+      </article>
+      <article class="blog-card">
+        <p class="blog-tag">Trends</p>
+        <h3>Soft glam vs. bold glam — how to choose</h3>
+        <p>Picking the right intensity for your event, outfit, and the lighting you'll be photographed in.</p>
+        <span class="blog-read">Read more →</span>
+      </article>
+      <article class="blog-card">
+        <p class="blog-tag">Behind the scenes</p>
+        <h3>What's in our kit: the products we trust</h3>
+        <p>A look at the premium, branded products our artists rely on, and why product quality matters as much as skill.</p>
+        <span class="blog-read">Read more →</span>
+      </article>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact">
+    <div class="section-head">
+      <p class="eyebrow">Contact &amp; booking</p>
+      <h2>Let's plan<br>your look</h2>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <p>Fill out the form and our team will get back to you to confirm your booking and discuss your look.</p>
+        <ul class="contact-list">
+          <li>
+            <span class="contact-label">Studio</span>
+            <span>Dharampur, Dehradun, Uttarakhand</span>
+          </li>
+          <li>
+            <span class="contact-label">WhatsApp</span>
+            <a href="https://wa.me/917088529040" target="_blank" rel="noopener">
+              <svg class="wa-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.4 0 0 5.4 0 12c0 2.1.5 4.1 1.5 5.9L0 24l6.3-1.6C8 23.4 10 24 12 24c6.6 0 12-5.4 12-12S18.6 0 12 0zm6.6 17c-.3.8-1.7 1.5-2.4 1.6-.6.1-1.4.1-2.2-.1-.5-.1-1.2-.4-2-.7-3.5-1.5-5.8-5-6-5.3-.2-.3-1.4-1.9-1.4-3.6s.9-2.6 1.2-2.9c.3-.3.7-.4 1-.4h.7c.2 0 .5 0 .7.5.3.6.9 2.1 1 2.3.1.2.1.4 0 .6-.1.2-.2.4-.4.6-.2.2-.4.4-.5.6-.2.2-.4.4-.2.8.2.4 1 1.6 2.1 2.6 1.4 1.3 2.7 1.7 3.1 1.9.4.2.6.2.8-.1.2-.2.9-1 1.1-1.4.2-.4.5-.3.8-.2.3.1 2.1 1 2.4 1.2.3.2.5.3.6.4.1.2.1.9-.2 1.7z"/></svg>
+              7088529040
+            </a>
+          </li>
+          <li>
+            <span class="contact-label">Hours</span>
+            <span>By appointment, all days</span>
+          </li>
+        </ul>
+      </div>
+      <div class="contact-form">
+        <div class="form-card">
+          <h3>Booking enquiry form</h3>
+          <p>Share your event date, location, and the look you have in mind we'll get back to you to confirm details.</p>
+          <!-- Replace the href below with your own Google Form link -->
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdHCg0VCasjQ5YtOm4oKixS2-s73VPdd3Z-L-AVTOVQsXmz4g/viewform?usp=header">Open booking form</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>Glow Collective — Dharampur, Dehradun</p>
+  <p class="footer-sub">Founded by Diksha Kuniyal</p>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo gallery">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close gallery">
+    <svg viewBox="0 0 24 24" width="24" height="24"><path d="M5 5 L19 19 M19 5 L5 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+  </button>
+  <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous photo">
+    <svg viewBox="0 0 24 24" width="28" height="28"><path d="M15 5 L8 12 L15 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+  </button>
+  <div class="lightbox-content">
+    <img id="lightboxImg" src="" alt="">
+    <span class="lightbox-fallback" id="lightboxFallback"></span>
+    <p class="lightbox-caption" id="lightboxCaption"></p>
+  </div>
+  <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next photo">
+    <svg viewBox="0 0 24 24" width="28" height="28"><path d="M9 5 L16 12 L9 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+  </button>
+</div>
+
+<script>
+  // Mobile nav toggle
+  const navToggle = document.getElementById('navToggle');
+  const navLinks = document.getElementById('navLinks');
+  navToggle.addEventListener('click', () => {
+    const isOpen = navLinks.classList.toggle('open');
+    navToggle.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', isOpen);
+  });
+  navLinks.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('open');
+      navToggle.classList.remove('open');
+      navToggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+
+  // Album lightbox gallery
+  const tiles = Array.from(document.querySelectorAll('.album-tile'));
+  const photos = tiles.map(tile => ({
+    src: tile.querySelector('img').getAttribute('src'),
+    alt: tile.querySelector('img').getAttribute('alt'),
+    caption: tile.querySelector('.album-fallback').textContent
+  }));
+
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightboxImg');
+  const lightboxFallback = document.getElementById('lightboxFallback');
+  const lightboxCaption = document.getElementById('lightboxCaption');
+  const lightboxClose = document.getElementById('lightboxClose');
+  const lightboxPrev = document.getElementById('lightboxPrev');
+  const lightboxNext = document.getElementById('lightboxNext');
+
+  let currentIndex = 0;
+
+  function showPhoto(index) {
+    currentIndex = (index + photos.length) % photos.length;
+    const photo = photos[currentIndex];
+    lightboxImg.style.display = 'block';
+    lightboxFallback.style.display = 'none';
+    lightboxImg.src = photo.src;
+    lightboxImg.alt = photo.alt;
+    lightboxImg.onerror = () => {
+      lightboxImg.style.display = 'none';
+      lightboxFallback.style.display = 'flex';
+      lightboxFallback.textContent = photo.alt;
+    };
+    lightboxCaption.textContent = photo.caption;
+  }
+
+  function openLightbox(index) {
+    showPhoto(index);
+    lightbox.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeLightbox() {
+    lightbox.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  tiles.forEach((tile, index) => {
+    tile.addEventListener('click', () => openLightbox(index));
+  });
+
+  lightboxClose.addEventListener('click', closeLightbox);
+  lightboxPrev.addEventListener('click', () => showPhoto(currentIndex - 1));
+  lightboxNext.addEventListener('click', () => showPhoto(currentIndex + 1));
+
+  lightbox.addEventListener('click', (e) => {
+    if (e.target === lightbox) closeLightbox();
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (!lightbox.classList.contains('open')) return;
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') showPhoto(currentIndex - 1);
+    if (e.key === 'ArrowRight') showPhoto(currentIndex + 1);
+  });
+</script>
+
+</body>
+</html>
